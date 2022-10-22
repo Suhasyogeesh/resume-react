@@ -10,7 +10,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-evenly;
   padding: ${(props) => props.theme.padding.t};
-  height: 31rem;
+  height: 25rem;
   margin:${props=>props.theme.margin} 0;
 
   & div:nth-of-type(2) {

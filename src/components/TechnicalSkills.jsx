@@ -8,7 +8,7 @@ import {
   SiCplusplus,
   SiScikitlearn,
   SiNumpy,
-  SiPandas,
+  SiTableau,
   SiKeras,
   SiMysql,
   SiMongodb
@@ -110,7 +110,7 @@ export default function TechnicalSkills() {
           </Skills>
         </Languages>
         <Languages>
-          <h2>Frameworks</h2>
+          <h2>Frameworks/Tools</h2>
           <Skills>
             {" "}
             <Skill>
@@ -126,8 +126,8 @@ export default function TechnicalSkills() {
               <h3>Keras</h3>
             </Skill>
             <Skill>
-              <SiPandas />
-              <h3>Pandas</h3>
+              <SiTableau/>
+              <h3>Tableau</h3>
             </Skill>
           </Skills>
         </Languages>

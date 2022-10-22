@@ -70,7 +70,7 @@ export default function Projects() {
             This project is focused on recommending the courses based on user preferences.
           </Point>
           <Point>
-            The model conists of 1665 different courses.
+            The model consists of 1665 different courses.
           </Point>
           Role:
           <Point>

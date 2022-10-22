@@ -7,16 +7,18 @@ import {GrCertificate} from 'react-icons/gr';
 
 const Certification = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  justify-items: center;
   padding: ${(props) => props.theme.padding.t};
 `;
 
 const Certificate = styled.a`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   text-decoration: none;
+  width: 310px;
   color: ${(props) => props.theme.text};
 
   & svg {
@@ -65,6 +67,15 @@ export default function Certifications() {
             <p>Jovian</p>
           </Details>
         </Certificate>
+        <Certificate href='https://verify.mygreatlearning.com/verify/MYEOLMSM'>
+          <GrCertificate />
+          <Details>
+            <h3>Data Visualization using Tableau</h3>
+            <p>Great Learning</p>
+          </Details>
+        </Certificate>
+        <Certificate/>
+        <Certificate/>
       </Certification>
     </div>
   );
