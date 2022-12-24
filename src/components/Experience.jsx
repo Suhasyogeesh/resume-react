@@ -49,7 +49,7 @@ export default function Experience() {
         </Role>
         <Duration>
           <Badge style={{ width: "113px", textAlign: "center" }}>
-            Aug 2021- Present
+            Aug 2021 - Dec 2022
           </Badge>
         </Duration>
         <Work>

@@ -108,13 +108,13 @@ export default function Introduction() {
             </div>
 
             <div>
-              <h3>#169,Jss Layout, 29th Block,<br/>Mysore District,<br/>Karnataka, India - 570019  </h3>
+              <h3>1011 South Oakley Boulevard, 1F,<br/>Chicago,<br/>Illinois, USA - 60612  </h3>
             </div>
 
             <div>
-            <Contact href="tel:+91-7676574844">
+            <Contact href="tel:+1-3124687719">
                 <FaMobileAlt/>
-                <h3>+91-7676574844</h3>  
+                <h3>+1-(312)468-7719</h3>  
             </Contact>
             <Contact href="mailto:suhasy1811@gmail.com">
                 <MdEmail/>
